@@ -169,7 +169,7 @@ footer {
   left: 44%;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) {
   .wrapper {
     display: flex;
   }
