@@ -169,7 +169,33 @@ footer {
   left: 44%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 360px) {
+  .wrapper {
+    display: flex;
+  }
+
+  .imagem img {
+    width: 100px;
+  }
+
+  .bio span {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  footer {
+    padding-top: 20px;
+    left: 30%;
+    bottom: 5px;
+    font-size: 10px;
+  }
+
+  .botoes a {
+    font-size: .8em;
+  }
+}
+
+/* @media screen and (max-width: 1100px) {
   .wrapper {
     display: flex;
   }
@@ -189,4 +215,4 @@ footer {
     bottom: 5px;
     font-size: 10px;
   }
-}
+} */
