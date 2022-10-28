@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-  display: block;
+  display: flex;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -166,7 +166,8 @@ body {
 footer {
   position: absolute;
   bottom: 1em;
-  left: 44%;
+  text-align: center;
+  width: 100%;
 }
 
 @media screen and (min-width: 360px) {
@@ -181,13 +182,6 @@ footer {
   .bio span {
     font-size: 15px;
     width: 100%;
-  }
-
-  footer {
-    padding-top: 20px;
-    left: 30%;
-    bottom: 5px;
-    font-size: 10px;
   }
 
   .botoes a {
